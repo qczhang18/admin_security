@@ -9,12 +9,12 @@
   </head>
 
   <body>
-    <h1> User Zone Template </h1>
-    <h1> Welcome <%= current_user.email %> </h1>
+    <h1> Admin Zone Template </h1>
+    <h1> Welcome <%= current_admin.email %> </h1>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     
-    <a href ="/users/logout">Logout</a>
+    <a href ="/admins/logout">Logout</a>
 
     <%= yield %>
     <%= debug(params) if Rails.env.development?%>
