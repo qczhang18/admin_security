@@ -36,6 +36,7 @@ gem 'haml'
 gem 'haml-rails'
 gem 'awesome_print'
 gem "paperclip"
+gem 'simple_form'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
