@@ -13,7 +13,9 @@
     <h1> Welcome <%= current_admin.email %> </h1>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-    
+  
+    <a href="/admins">Admin Home </a>
+    <a href="/admins/things">Things</a>
     <a href ="/admins/logout">Logout</a>
 
     <%= yield %>
